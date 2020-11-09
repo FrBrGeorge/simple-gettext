@@ -13,10 +13,12 @@ AC_PROG_CC
 # Checks for libraries.
 
 # Checks for header files.
+AC_CHECK_HEADERS([libintl.h locale.h stdlib.h])
 
 # Checks for typedefs, structures, and compiler characteristics.
 
 # Checks for library functions.
+AC_CHECK_FUNCS([realpath setlocale])
 
 AC_CONFIG_FILES([Makefile])
 AC_OUTPUT
