@@ -21,7 +21,8 @@ int main(int argc, char *argv[])
 
 	for(i=0; i<5; i++)
 		/* Loosy plural example */
-		printf(_("Hello, %d Worlds!\n"), i);
+		printf(ngettext("Hello, %d World!\n",
+                                "Hello, %d Worlds!\n", i), i);
 
 	return 0;
 }
