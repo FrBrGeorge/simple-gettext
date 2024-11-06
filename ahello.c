@@ -3,6 +3,7 @@
 #include <libgen.h>
 #include <libintl.h>
 #include <locale.h>
+#include "config.h"
 
 #define _(STRING) gettext(STRING)
 #define LOCALE_PATH "."
@@ -12,8 +13,8 @@ int main(int argc, char *argv[])
 	int i;
 
 	setlocale (LC_ALL, "");
-	bindtextdomain ("ahello", LOCALE_PATH);
-	textdomain ("ahello");
+	bindtextdomain (PACKAGE, LOCALE_PATH);
+	textdomain (PACKAGE);
 
 	/* Simple text */
 	puts(_("Hello World\n"));
