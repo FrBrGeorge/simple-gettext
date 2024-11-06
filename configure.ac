@@ -8,6 +8,7 @@ AM_GNU_GETTEXT([external])
 AM_GNU_GETTEXT_REQUIRE_VERSION(0.21)
 AC_CONFIG_SRCDIR([src/ahello.c])
 AC_CONFIG_HEADERS([config.h])
+AC_SUBST(GETTEXT_PACKAGE, "$PACKAGE")
 ALL_LINGUAS="ru"
 
 # Checks for programs.
