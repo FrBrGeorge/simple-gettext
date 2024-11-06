@@ -1,0 +1,30 @@
+# Russian translations for ahello package
+# Английские переводы для пакета ahello.
+# This file is put in the public domain.
+# Fr. Br. George <george@altlinux.org>, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ahello 0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-06 10:33+0300\n"
+"PO-Revision-Date: 2024-11-06 10:34+0300\n"
+"Last-Translator: Fr. Br. George <george@altlinux.org>\n"
+"Language-Team: Russian <gnu@d07.ru>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#. Simple text
+#: ahello.c:21
+msgid "Hello World\n"
+msgstr ""
+
+#. Loosy plural example
+#: ahello.c:25
+#, c-format
+msgid "Hello, %d World\n"
+msgstr ""
