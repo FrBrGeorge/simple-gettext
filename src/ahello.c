@@ -18,7 +18,7 @@ int main(int argc, char *argv[])
 	/* Simple text */
 	puts(_("Hail thou the only Universe!\n"));
 
-	for(i=0; i<5; i++)
+	for(i=0; i<6; i++)
 		/* Loosy plural example */
 		printf(ngettext("Hello, %d World!\n",
                                 "Hello, %d Worlds!\n", i), i);
