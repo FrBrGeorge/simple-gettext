@@ -17,11 +17,11 @@ int main(int argc, char *argv[])
 	textdomain (PACKAGE);
 
 	/* Simple text */
-	puts(_("Hello World\n"));
+	puts(_("Hail thou the only Universe!\n"));
 
 	for(i=0; i<5; i++)
 		/* Loosy plural example */
-		printf(_("Hello, %d World\n"), i);
+		printf(_("Hello, %d Worlds!\n"), i);
 
 	return 0;
 }
