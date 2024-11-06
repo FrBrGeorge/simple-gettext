@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ahello 0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-06 12:25+0300\n"
+"POT-Creation-Date: 2024-11-06 12:33+0300\n"
 "PO-Revision-Date: 2024-11-06 10:34+0300\n"
 "Last-Translator: Fr. Br. George <george@altlinux.org>\n"
 "Language-Team: Russian <gnu@d07.ru>\n"
@@ -19,12 +19,12 @@ msgstr ""
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #. Simple text
-#: ahello.c:20
+#: ../src/ahello.c:20
 msgid "Hail thou the only Universe!\n"
 msgstr "Привет тебе, о единая Вселенная!\n"
 
 #. Loosy plural example
-#: ahello.c:24
+#: ../src/ahello.c:24
 #, c-format
 msgid "Hello, %d World!\n"
 msgid_plural "Hello, %d Worlds!\n"

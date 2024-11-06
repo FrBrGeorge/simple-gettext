@@ -6,7 +6,7 @@
 #include "config.h"
 
 #define _(STRING) gettext(STRING)
-#define LOCALE_PATH "."
+#define LOCALE_PATH "po"
 
 int main(int argc, char *argv[])
 {
