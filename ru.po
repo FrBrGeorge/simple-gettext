@@ -21,10 +21,10 @@ msgstr ""
 #. Simple text
 #: ahello.c:21
 msgid "Hello World\n"
-msgstr ""
+msgstr "Привет, мир\n"
 
 #. Loosy plural example
 #: ahello.c:25
 #, c-format
 msgid "Hello, %d World\n"
-msgstr ""
+msgstr "Привет, мир № %d\n"
