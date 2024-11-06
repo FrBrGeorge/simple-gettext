@@ -25,11 +25,11 @@ msgstr "Привет тебе, о единая Вселенная!\n"
 
 #. Loosy plural example
 #: ahello.c:24
-#, fuzzy, c-format
+#, c-format
 msgid "Hello, %d World!\n"
 msgid_plural "Hello, %d Worlds!\n"
-msgstr[0] "Привет, %d миров!\n"
-msgstr[1] "Привет, %d миров!\n"
+msgstr[0] "Привет, %d мир!\n"
+msgstr[1] "Привет, %d мира!\n"
 msgstr[2] "Привет, %d миров!\n"
 
 #~ msgid "Hello, World\n"
