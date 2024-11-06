@@ -4,6 +4,7 @@
 AC_PREREQ([2.69])
 AC_INIT([L10n gettext example], [0.0], [george@altlinux.org])
 AM_INIT_AUTOMAKE([foreign])
+AM_GNU_GETTEXT([external])
 AC_CONFIG_SRCDIR([src/ahello.c])
 AC_CONFIG_HEADERS([config.h])
 
@@ -20,5 +21,5 @@ AC_CHECK_HEADERS([libintl.h locale.h stdlib.h])
 # Checks for library functions.
 AC_CHECK_FUNCS([realpath setlocale])
 
-AC_CONFIG_FILES([Makefile po/Makefile src/Makefile])
+AC_CONFIG_FILES([Makefile po/Makefile.in src/Makefile])
 AC_OUTPUT
